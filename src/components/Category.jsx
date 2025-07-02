@@ -38,7 +38,7 @@ const Category = () => {
 
   return (
     <div className="">
-      <h1 className="font-thin text-xl">Our Category List</h1>
+      <h1 className="font-thin text-xl px-6">Our Category List</h1>
 
       <div className="mt-6 w-full overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
         <div className="flex space-x-6 w-max">
