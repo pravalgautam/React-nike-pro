@@ -7,6 +7,7 @@ import FeaturedCollection from "./FeaturedCollection";
 import Footer from "./Footer";
 
 const HomeScreen = () => {
+    
   return (
     <div className="w-screen overflow-x-hidden">
       <div className="fixed top-0 w-full z-50">
