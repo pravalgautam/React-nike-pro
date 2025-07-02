@@ -37,10 +37,10 @@ const Category = () => {
   ];
 
   return (
-    <div className="px-6">
+    <div className="">
       <h1 className="font-thin text-xl">Our Category List</h1>
 
-      <div className="mt-10 w-full overflow-x-auto">
+      <div className="mt-6 w-full overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
         <div className="flex space-x-6 w-max">
           {categories.map((item, index) => (
             <CategoryComp key={index} image={item.image} title={item.title} />
