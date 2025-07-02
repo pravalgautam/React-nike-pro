@@ -9,7 +9,7 @@ import Footer from "./Footer";
 const HomeScreen = () => {
   return (
     <div>
-        <div className="fixed top-0 w-full z-50">
+        <div className="fixed top-0 w-screen z-50">
       <Navbar />
       </div>
       <div className="bg-[#f5f4f4] h-full">
